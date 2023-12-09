@@ -508,16 +508,15 @@ color-size {
 /*SCALE N SIP*/
 
 /* BANNER */
-.body{
-    padding-top:30px;
-}
+
         .scaleNsip-banner {
             position: relative;
             width: auto; /* Adjust container size as needed */
-            height: 712px; /* Adjust container size as needed */
+            height: 741px; /* Adjust container size as needed */
             overflow: hidden;
-            object-fit: cover;
+            objectfit:cover;
             margin-bottom: 0;
+            margin-top:70px;
         }
 
         .scaleNsip-banner img,
@@ -527,6 +526,7 @@ color-size {
             left: 0;
             width: 100%;
             height: auto;
+            display:block;
             opacity: 1; /* Show the image by default */
             transition: opacity 0.5s ease-in-out;
         }
@@ -537,7 +537,6 @@ color-size {
         
 
         /* SCALE & SIP */
-
        
         .scaleNsip-desc p {
             margin-top: 0;
@@ -550,6 +549,7 @@ color-size {
             font-size: 34px;
             margin-bottom:40px;
             margin-left:40px;
+            margin-top: -1px;
             
         }
         .highlight{
@@ -557,7 +557,7 @@ color-size {
             font-family: 'DM Sans';
         }
 
-        label {
+        .labelform {
             font-family: 'Comfortaa', sans-serif;
         }
 
@@ -601,6 +601,14 @@ color-size {
         }
     
         /*ABOUT US*/
+
+        .aboutus-banner{
+            object fit:cover;
+            padding-left: -10px;
+            padding-right: 0;
+            overflow: hidden;
+
+        }
       
           .aboutus-heading1, .aboutus-heading2{
             font-family: 'DM Sans';
