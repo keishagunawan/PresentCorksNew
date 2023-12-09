@@ -282,8 +282,6 @@ price{
 }
 
 collab {
-    font-family: /* your font family here */;
-    font-size: /* your font size here */;
     font-weight: bold;
     display: flex;
     align-items: center;
