@@ -440,3 +440,15 @@ color-size {
         font-size: 12px; /* Adjust the font size for smaller screens */
     }
 }
+
+/*FOOTER*/
+#footer {
+    background-color: black;
+}
+
+.footer-text {
+    color: white;
+    font-family: DM sans;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
