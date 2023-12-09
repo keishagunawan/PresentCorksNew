@@ -564,96 +564,98 @@ color-size {
 }
 
 .scaleNsip-banner {
-            position: relative;
-            width: auto; /* Adjust container size as needed */
-            height: 712px; /* Adjust container size as needed */
-            overflow: hidden;
-            object-fit: cover;
-            margin-bottom:0;
-            
-        }
+    position: relative;
+    width: auto; /* Adjust container size as needed */
+    height: 741px; /* Adjust container size as needed */
+    overflow: hidden;
+    objectfit:cover;
+    margin-bottom: 0;
+    margin-top:70px;
+}
 
-        .scaleNsip-banner img,
-        .scaleNsip-banner video {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: auto;
-            opacity: 1; /* Show the image by default */
-            transition: opacity 0.5s ease-in-out;
-        }
+.scaleNsip-banner img,
+.scaleNsip-banner video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    display:block;
+    opacity: 1; /* Show the image by default */
+    transition: opacity 0.5s ease-in-out;
+}
 
-        .scaleNsip-banner img:hover {
-            opacity: 0; /* Hide the image on hover */
-        }
-        
+.scaleNsip-banner img:hover {
+    opacity: 0; /* Hide the image on hover */
+}
 
-        /* SCALE & SIP */
 
-       
-        .scaleNsip-desc p {
-            margin-top: 0;
-            margin-bottom: -10px;; /* Adjust this value to control the gap within the paragraph */
-        }
+/* SCALE & SIP */
 
-        .scaleNsip-desc{
-            color: #6F7476;
-            font-family: 'DM Sans';
-            font-size: 34px;
-            margin-bottom:40px;
-            margin-left:40px;
-            
-        }
-        .highlight{
-            color: black;
-            font-family: 'DM Sans';
-        }
+.scaleNsip-desc p {
+    margin-top: 0;
+    margin-bottom: -10px;; /* Adjust this value to control the gap within the paragraph */
+}
 
-        .labelform {
-            font-family: 'Comfortaa', sans-serif;
-        }
-
-        #categoryDropdown1, #categoryDropdown2 {
-            font-family: 'Comfortaa', sans-serif;
-        }
-
-        .compare1, .compare2{
-            display: inline-block;
-        }
-
-        .result-image1 img{
-            animation: comparisonAnim1 1s cubic-bezier(0.33, 1, 0.68, 1) 0s 1 normal forwards;
-        }
-        @keyframes comparisonAnim1 {
-            0% {
-                opacity: 1;
-                transform: translateX(-250px);
-            }
-
-            100% {
-                opacity: 1;
-                transform: translateX(0);
-            }
-        }
-
-        .result-image2 img{
-            animation: comparisonAnim2 1s cubic-bezier(0.33, 1, 0.68, 1) 0s 1 normal forwards;
-        }
-
-        @keyframes comparisonAnim2 {
-            0% {
-                opacity: 1;
-                transform: translateX(250px);
-            }
-
-            100% {
-                opacity: 1;
-                transform: translateX(0);
-            }
-        }
+.scaleNsip-desc{
+    color: #6F7476;
+    font-family: 'DM Sans';
+    font-size: 34px;
+    margin-bottom:40px;
+    margin-left:40px;
+    margin-top: -1px;
     
-        /*ABOUT US*/
+}
+.highlight{
+    color: black;
+    font-family: 'DM Sans';
+}
+
+.labelform {
+    font-family: 'Comfortaa', sans-serif;
+}
+
+#categoryDropdown1, #categoryDropdown2 {
+    font-family: 'Comfortaa', sans-serif;
+}
+
+.compare1, .compare2{
+    display: inline-block;
+}
+
+.result-image1 img{
+    animation: comparisonAnim1 1s cubic-bezier(0.33, 1, 0.68, 1) 0s 1 normal forwards;
+}
+@keyframes comparisonAnim1 {
+    0% {
+        opacity: 1;
+        transform: translateX(-250px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.result-image2 img{
+    animation: comparisonAnim2 1s cubic-bezier(0.33, 1, 0.68, 1) 0s 1 normal forwards;
+}
+
+@keyframes comparisonAnim2 {
+    0% {
+        opacity: 1;
+        transform: translateX(250px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/*ABOUT US*/
+
 .aboutus-banner{
     object fit:cover;
     padding-left: -10px;
