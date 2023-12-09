@@ -478,4 +478,3 @@ function updateResultImage(setNumber) {
     resultImage.innerHTML = '<img src="' + imagePath + '" alt= "Selected Image" style="max-width: 100%; height: auto;">';
 
 }
-
