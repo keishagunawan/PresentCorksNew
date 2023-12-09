@@ -32,6 +32,25 @@
 .photos img.pos4 { left: 66.66%; }
 .photos img.pos5 { left: 100%; }
 
+ourproduct {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+chooseyour {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: gray;
+}
+
+canteen {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 55px;
+    font-weight: bold;
+}
+
 /*HOME-ANIMATION-DESCRIPTION*/
 .homepage-desc {
     background-color: black;
