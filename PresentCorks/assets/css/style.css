@@ -713,3 +713,16 @@ color-size {
     width: 210px;
   }
 
+/*SCROLL DOWN ARROW*/
+.scroll-down-arrow {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-decoration: none;
+    font-size: 48px; /* Increased font size */
+    color: black; /* Arrow color */
+    background-color: white; /* White background */
+    padding: 10px; /* Padding around the arrow */
+    border-radius: 50%; /* Circular background */
+  }
