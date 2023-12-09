@@ -563,38 +563,14 @@ color-size {
     font-size: 18px;
 }
 
-/*SCALE N SIP*/
-
-/* BANNER */
-<<<<<<< HEAD
-=======
-        .container-fluid{
-            padding-left: 0rem;
-            padding-right: 0rem;
-            overflow: hidden;
-            
-        }
-
-        .container{
-            height: 800px;
-        }
->>>>>>> keisha
-
-        .scaleNsip-banner {
+.scaleNsip-banner {
             position: relative;
             width: auto; /* Adjust container size as needed */
-<<<<<<< HEAD
-            height: 741px; /* Adjust container size as needed */
-            overflow: hidden;
-            objectfit:cover;
-            margin-bottom: 0;
-            margin-top:70px;
-=======
             height: 712px; /* Adjust container size as needed */
             overflow: hidden;
             object-fit: cover;
+            margin-bottom:0;
             
->>>>>>> keisha
         }
 
         .scaleNsip-banner img,
@@ -604,10 +580,6 @@ color-size {
             left: 0;
             width: 100%;
             height: auto;
-<<<<<<< HEAD
-            display:block;
-=======
->>>>>>> keisha
             opacity: 1; /* Show the image by default */
             transition: opacity 0.5s ease-in-out;
         }
@@ -618,10 +590,7 @@ color-size {
         
 
         /* SCALE & SIP */
-<<<<<<< HEAD
-=======
 
->>>>>>> keisha
        
         .scaleNsip-desc p {
             margin-top: 0;
@@ -634,10 +603,6 @@ color-size {
             font-size: 34px;
             margin-bottom:40px;
             margin-left:40px;
-<<<<<<< HEAD
-            margin-top: -1px;
-=======
->>>>>>> keisha
             
         }
         .highlight{
@@ -645,11 +610,7 @@ color-size {
             font-family: 'DM Sans';
         }
 
-<<<<<<< HEAD
         .labelform {
-=======
-        label {
->>>>>>> keisha
             font-family: 'Comfortaa', sans-serif;
         }
 
@@ -693,66 +654,54 @@ color-size {
         }
     
         /*ABOUT US*/
-<<<<<<< HEAD
+.aboutus-heading1, .aboutus-heading2{
+      font-family: 'DM Sans';
+      font-size: 42px;
+      text-align: left;
+      animation: aboutusHAnim 1s ease 0s 1 normal forwards;
+    }
+    @keyframes aboutusHAnim {
+    0% {
+      opacity: 0;
+      transform: scale(0.6);
+    }
 
-        .aboutus-banner{
-            object fit:cover;
-            padding-left: -10px;
-            padding-right: 0;
-            overflow: hidden;
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
 
-        }
-=======
->>>>>>> keisha
+    .aboutus-desc1, .aboutus-desc2 {
+      font-family: 'DM Sans';
+      font-size: 18px;
+    }
+
+    .aboutuslogo {
+      width: 600px;
+    }
+
+    .aboutus-heading1,
+    .aboutus-desc1 {
+      text-align: justify;
+    }
+
+    .aboutus1{
+      width: 275px;
+      height: 168px;
+      object-fit: cover;
+      display:block;
+    }
+
+    .aboutus2{
+      width: 215px;
+      height: 241px;
       
-          .aboutus-heading1, .aboutus-heading2{
-            font-family: 'DM Sans';
-            font-size: 42px;
-            text-align: left;
-            animation: aboutusHAnim 1s ease 0s 1 normal forwards;
-          }
-          @keyframes aboutusHAnim {
-          0% {
-            opacity: 0;
-            transform: scale(0.6);
-          }
-      
-          100% {
-            opacity: 1;
-            transform: scale(1);
-          }
-        }
-      
-          .aboutus-desc1, .aboutus-desc2 {
-            font-family: 'DM Sans';
-            font-size: 18px;
-          }
-      
-          .aboutuslogo {
-            width: 600px;
-          }
-      
-          .aboutus-heading1,
-          .aboutus-desc1 {
-            text-align: justify;
-          }
-      
-          .aboutus1{
-            width: 275px;
-            height: 168px;
-            object-fit: cover;
-            display:block;
-          }
-      
-          .aboutus2{
-            width: 215px;
-            height: 241px;
-            
-          }
-          .aboutus3{
-            height: 195px;
-            width: 210px;
-          }
+    }
+    .aboutus3{
+      height: 195px;
+      width: 210px;
+    }
 
 
       
