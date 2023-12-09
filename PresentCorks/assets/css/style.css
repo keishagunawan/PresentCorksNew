@@ -161,6 +161,58 @@ canteen {
     min-height: 30vh;
 }
 
+/*HOMEPAGE-SCALENSIP*/
+
+.homepage-snsheading{
+    color: black;
+    font-family: 'DM Sans';
+    font-size: 34px;
+    margin-left:40px;
+}
+
+.homepage-snsdesc{
+    color: #6F7476;
+    font-family: 'DM Sans';
+    font-size: 24px;
+    margin-top:-10px;
+    margin-bottom:40px;
+    margin-left:40px;    
+}
+.highlight{
+    color: black;
+    font-family: 'DM Sans';
+}
+
+.homepage-snsdemo{
+    position: relative;
+    width: auto; 
+    height: auto; 
+    overflow: hidden;
+
+}
+
+.homepage-snsdemo img.thumbnail {
+    position: absolute;
+    margin-top: -5px;
+    width: 100%;
+    height: auto;
+    opacity: 1; 
+    transition: opacity 0.5s ease-in-out;
+}
+
+.homepage-snsdemo:hover img.thumbnail {
+    opacity: 0; 
+}
+
+.snsbutton{
+    font-family: 'DM Sans';
+    
+}
+
+
+
+
+
 /*PRODUCT*/
 #banner-product {
     padding-top: 50px;
@@ -230,9 +282,7 @@ price{
 }
 
 collab {
-    font-family: /* your font family here */;
-    font-size: /* your font size here */;
-    font-weight: bold;
+        font-weight: bold;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -358,7 +408,7 @@ accessories{
     margin-top: 80px;
 }
 
-.container-colorinteractive {
+.contcolorinteractive {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -452,3 +502,162 @@ color-size {
     margin-bottom: 30px;
     font-size: 18px;
 }
+
+/*SCALE N SIP*/
+
+/* BANNER */
+        .container-fluid{
+            padding-left: 0rem;
+            padding-right: 0rem;
+            overflow: hidden;
+            
+        }
+
+        .container{
+            height: 800px;
+        }
+
+        .scaleNsip-banner {
+            position: relative;
+            width: auto; /* Adjust container size as needed */
+            height: 712px; /* Adjust container size as needed */
+            overflow: hidden;
+            object-fit: cover;
+            
+        }
+
+        .scaleNsip-banner img,
+        .scaleNsip-banner video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: auto;
+            opacity: 1; /* Show the image by default */
+            transition: opacity 0.5s ease-in-out;
+        }
+
+        .scaleNsip-banner img:hover {
+            opacity: 0; /* Hide the image on hover */
+        }
+        
+
+        /* SCALE & SIP */
+
+       
+        .scaleNsip-desc p {
+            margin-top: 0;
+            margin-bottom: -10px;; /* Adjust this value to control the gap within the paragraph */
+        }
+
+        .scaleNsip-desc{
+            color: #6F7476;
+            font-family: 'DM Sans';
+            font-size: 34px;
+            margin-bottom:40px;
+            margin-left:40px;
+            
+        }
+        .highlight{
+            color: black;
+            font-family: 'DM Sans';
+        }
+
+        label {
+            font-family: 'Comfortaa', sans-serif;
+        }
+
+        #categoryDropdown1, #categoryDropdown2 {
+            font-family: 'Comfortaa', sans-serif;
+        }
+
+        .compare1, .compare2{
+            display: inline-block;
+        }
+
+        .result-image1 img{
+            animation: comparisonAnim1 1s cubic-bezier(0.33, 1, 0.68, 1) 0s 1 normal forwards;
+        }
+        @keyframes comparisonAnim1 {
+            0% {
+                opacity: 1;
+                transform: translateX(-250px);
+            }
+
+            100% {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        .result-image2 img{
+            animation: comparisonAnim2 1s cubic-bezier(0.33, 1, 0.68, 1) 0s 1 normal forwards;
+        }
+
+        @keyframes comparisonAnim2 {
+            0% {
+                opacity: 1;
+                transform: translateX(250px);
+            }
+
+            100% {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+    
+        /*ABOUT US*/
+      
+          .aboutus-heading1, .aboutus-heading2{
+            font-family: 'DM Sans';
+            font-size: 42px;
+            text-align: left;
+            animation: aboutusHAnim 1s ease 0s 1 normal forwards;
+          }
+          @keyframes aboutusHAnim {
+          0% {
+            opacity: 0;
+            transform: scale(0.6);
+          }
+      
+          100% {
+            opacity: 1;
+            transform: scale(1);
+          }
+        }
+      
+          .aboutus-desc1, .aboutus-desc2 {
+            font-family: 'DM Sans';
+            font-size: 18px;
+          }
+      
+          .aboutuslogo {
+            width: 600px;
+          }
+      
+          .aboutus-heading1,
+          .aboutus-desc1 {
+            text-align: justify;
+          }
+      
+          .aboutus1{
+            width: 275px;
+            height: 168px;
+            object-fit: cover;
+            display:block;
+          }
+      
+          .aboutus2{
+            width: 215px;
+            height: 241px;
+            
+          }
+          .aboutus3{
+            height: 195px;
+            width: 210px;
+          }
+
+
+      
+
+
