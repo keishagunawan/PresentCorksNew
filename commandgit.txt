@@ -34,35 +34,19 @@ git push origin main
 
 
 kalau ada error gajelas:
-change directory:
-cd presentcorks
+git init
 
-buat branch background : git branch calandra
+git status
 
-buat check ada branch apa aja: git branch / git branc -radius
-
-buat pindah branch : git checkout calandra
-
-git pull origin main (seallu update codingan main)
-
-lalu koding aja buat file background
-
-
-
-masukin ke branch:
-git checkout calandra
+keluar text html yang warna merah artinya belum di add
 
 git add .
-git commit -m "mesg apapun"
-git push origin calandra
 
+git status lagi, kalau uda hijau aman
 
-checkout ke branch main
-git checkout main
+git remote add origin (link github)
 
-git pull origin main (selalu update codingan main)
+git commit -m "deskripsi commit"
 
-git merge calandra -> merge kodingan main dengan branch kalian
-
-git push origin main
+git push -u origin master/main
 
