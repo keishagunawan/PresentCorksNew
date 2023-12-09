@@ -1,0 +1,68 @@
+change directory:
+cd presentcorks
+
+buat branch background : git branch calandra
+
+buat check ada branch apa aja: git branch / git branc -radius
+
+buat pindah branch : git checkout calandra
+
+git pull origin main (seallu update codingan main)
+
+lalu koding aja buat file background
+
+
+
+masukin ke branch:
+git checkout calandra
+
+git add .
+git commit -m "mesg apapun"
+git push origin calandra
+
+
+checkout ke branch main
+git checkout main
+
+git pull origin main (selalu update codingan main)
+
+git merge calandra -> merge kodingan main dengan branch kalian
+
+git push origin main
+
+
+
+
+kalau ada error gajelas:
+change directory:
+cd presentcorks
+
+buat branch background : git branch calandra
+
+buat check ada branch apa aja: git branch / git branc -radius
+
+buat pindah branch : git checkout calandra
+
+git pull origin main (seallu update codingan main)
+
+lalu koding aja buat file background
+
+
+
+masukin ke branch:
+git checkout calandra
+
+git add .
+git commit -m "mesg apapun"
+git push origin calandra
+
+
+checkout ke branch main
+git checkout main
+
+git pull origin main (selalu update codingan main)
+
+git merge calandra -> merge kodingan main dengan branch kalian
+
+git push origin main
+
