@@ -1,3 +1,21 @@
+/*SALE*/
+document.addEventListener('DOMContentLoaded', function () {
+
+    const circles = document.querySelectorAll('.salecircle');
+  
+    window.addEventListener('scroll', function () {
+      const scrollPercentage = window.scrollY / (document.body.scrollHeight - window.innerHeight);
+  
+      // Show/hide circles based on scroll position
+      if (scrollPercentage >= 0.25) {
+        circles[1].style.opacity = 1;
+      }
+  
+      if (scrollPercentage >= 0.35) {
+        circles[2].style.opacity = 1;
+      }
+    });
+  });
 /* Kevin JS-ANIMATION-1*/
 const imagesKevin = document.querySelectorAll('#image-sequence img');
 let currentIndex = 0;
@@ -232,6 +250,20 @@ document.addEventListener("DOMContentLoaded", function () {
             mainCircle.style.opacity = 0;
         }, 100);
     });
+    VANTA.WAVES({
+        el: "#waveBG",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 200.00,
+        minWidth: 200.00,
+        scale: 1.00,
+        scaleMobile: 1.00,
+        color: 0x21018,
+        shininess: 40.00,
+        waveHeight: 8.00,
+        waveSpeed: 0.80,
+        zoom: 0.8});
 });
 
 /* COLOR-INTERACTIVE */
