@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PresentCorks</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!--ANIMATION-DESCRIPTION-JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.0/gsap.min.js"></script>
+    <!--DM SANS FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500&display=swap" rel="stylesheet">
+    <!--COMFORTAA FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=DM+Sans:opsz,wght@9..40,500&display=swap" rel="stylesheet">
+    <!--VANTAJS BACKGROUND-->
+    
+
+
+</head>
+<body>
+    <!--NAVBAR-->
+    <section id="navbar">
+        <nav class="navbar navbar-expand-lg fixed-top" style="background-color: black;">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="home.html"><img src="assets/image/logo.png" width="100px"/></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                  <a class="nav-link" href="product.html" style="color: white;">Product</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="sale.html" style="color: white;">Sale</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="scalensip.html" style="color: white;">Scale & Sip</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html" style="color: white;">About</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </section>
+
+      <!--FIRST-ANIMATION-->
+      <section id="first-animation">
+        <div id="image-sequence">
+          <img src="assets/image/home1.png" alt="Image 1" class="active kevin">
+          <img src="assets/image/home2.png" alt="Image 2" class="kevin">
+          <img src="assets/image/home3.png" alt="Image 3" class="kevin">
+          <img src="assets/image/home4.png" alt="Image 4" class="kevin">
+          <img src="assets/image/home5.png" alt="Image 5" class="kevin">
+          <img src="assets/image/home6.png" alt="Image 6" class="kevin">
+        </div>
+      </section>
+
+    <!--ANIMATION-OURPRODUCT-->
+    <section id="animation-ourproduct">
+
+      <a href="product.html">
+      <div class="ourproduct-text">
+        <p>Our Products<br>Choose your Canteen</p>
+      </div>
+      <div class="chooseyour-text">
+
+      </div>
+        <div class="photos">
+            <img src="assets/image/gryffindor.png" alt="Image 1" class="pos1">
+            <img src="assets/image/ariel.png" alt="Image 2" class="pos2">
+            <img src="assets/image/unicornmagic.png" alt="Image 3" class="pos3">
+            <img src="assets/image/gardenparty.png" alt="Image 4" class="pos4">
+            <img src="assets/image/luxezebra.png" alt="Image 5" class="pos5">
+        </div>
+      </a>
+
+        <div class="center-button-ourproduct">
+        <a href="product.html" class="button-ourproduct">Check Out Other Collections!</a>
+        </div>
+    </section>
+
+    <!--ANIMATION-DESCRIPTION-->
+    <section id="animation-description">
+      <div class="homepage-desc">
+        <p class="sub-heading sub-heading-1">Corkcicle makes every sip an experience</p>
+        <p class="desc desc-1">Ensured BPA Free. Up to 12 hours hot. Up to 25 hours cold.</p>
+        <p class="sub-heading sub-heading-2">Perfect Hydration</p>
+        <p class="desc desc-2">Allows easy-grip. Triple insulated. Anti-slip bottom.
+            Finish off with a tough Duraprene finish.</p>
+        <p class="sub-heading sub-heading-3">Sustainable Stylish</p>
+        <p class="desc desc-3">Enhance personal style while reducing personal impact on the planet. Style and
+            sustainability shouldn't be tradeoffs.</p>
+    </div>
+
+    </section>
+    <section id="sale-animation" class="sale-body">
+      <div class="circle" id="mainCircle"> <span>Click Me For SALE!</span></div>
+      <div class="circle" id="smallCircle1" data-text="10%"></div>
+      <div class="circle" id="smallCircle2" data-text="30%"></div>
+      <div class="circle" id="smallCircle3" data-text="50%"></div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta/dist/vanta.fog.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

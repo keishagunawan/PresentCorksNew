@@ -1,0 +1,423 @@
+/*HOME-ANIMATION-OURPRODUCT*/
+#animation-ourproduct {
+    padding-top: 100px;
+}
+
+.ourproduct-text {
+    margin-left: 70px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.photos {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    margin-top: 30px;
+}
+.photos img {
+    position: absolute;
+    width: 33.33%;
+    height: 100%;
+    object-fit: contain;
+    transition: left 0.5s ease, transform 0.5s ease;
+}
+.photos img.pos1 { left: -33.33%; }
+.photos img.pos2 { left: 0; }
+.photos img.pos3 {
+    left: 33.33%;
+    transform: scale(1.3); /* Membuat gambar lebih besar */
+    z-index: 1; /* Memastikan gambar ini berada di atas gambar lain */
+}
+.photos img.pos4 { left: 66.66%; }
+.photos img.pos5 { left: 100%; }
+
+/*HOME-ANIMATION-DESCRIPTION*/
+.homepage-desc {
+    background-color: black;
+    height: 100vh;
+    padding: 100px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    opacity: 1;
+}
+
+.sub-heading {
+    font-family: 'DM Sans';
+    font-size: 34px;
+    margin-bottom: 20px;
+    color: white;
+    margin-top: 0;
+    opacity: 1;
+    
+}
+.sub-heading-1{
+    animation: moveAndReturn1 2s linear 0s 1 normal backwards;
+}
+
+.sub-heading-3{
+    animation: moveAndReturn3 2s linear 0s 1 normal backwards;
+
+}
+@keyframes moveAndReturn1 {
+    0% {
+        opacity: 1;
+        transform: translateY(100px);
+    }
+
+    25% {
+        opacity: 1;
+        transform: translateY(100px);
+    }
+
+
+    75% {
+        opacity: 1;
+        transform: translateY(100px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes moveAndReturn3 {
+    0% {
+        opacity: 1;
+        transform: translateY(-100px);
+    }
+
+    25% {
+        opacity: 1;
+        transform: translateY(-100px);
+    }
+
+
+    75% {
+        opacity: 1;
+        transform: translateY(-100px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.desc {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 24px;
+    color: #BCC6CC;
+    margin-bottom: 20px;
+    opacity: 0;
+}
+.desc.show {
+    opacity: 1;
+}
+
+/*HOME-ANIMATION-DESCRIPTION*/
+
+
+.button-ourproduct {
+    background-color: transparent;
+    border: 5px solid black;
+    color: black;
+    border-radius: 2px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.center-button-ourproduct {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 30vh;
+}
+
+/*PRODUCT*/
+#banner-product {
+    padding-top: 50px;
+}
+
+.margin{
+    margin-left: 200px; 
+    margin-right: 200px;
+}
+
+.product-title{
+    font-family: 'DM Sans', sans-serif;
+}
+
+/*PRODUCT-CANTEEN*/
+.grid-canteen{
+    border: 2px solid lightgray; /* Mengatur border */
+    padding: 10px; /* Memberi ruang di dalam border */
+    margin-bottom: 15px;
+    border-radius: 5px; /* Membuat border menjadi bulat */
+}
+
+.image-center {
+    display: flex;
+    justify-content: center;
+  }
+
+series{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+color{
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 15px;
+}
+
+price{
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 15px;
+}
+
+
+/*PRODUCT-COLLABS*/
+#collabs {
+    background-color: black;
+    margin-left: 0px; 
+    margin-right: 0px;
+}
+
+.margin-collabs{
+    margin-left: 0px; 
+    margin-right: 0px;
+}
+
+.grid-collabs{
+    margin-bottom: 80px;
+}
+
+.grid-collabs:hover img {
+    transform: scale(1.3);
+}
+
+.rounded-image{
+    border-radius: 50%;
+}
+
+collab {
+    font-family: /* your font family here */;
+    font-size: /* your font size here */;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a:link{
+    color: black;
+    text-decoration: none;
+}
+
+a:visited{
+    color: black;
+    text-decoration: none;
+}
+
+
+/*PRODUCT-ACCESSORIES*/
+.grid-accessories{
+    border: 2px solid lightgray; /* Mengatur border */
+    padding: 10px; /* Memberi ruang di dalam border */
+    margin-bottom: 15px;
+    border-radius: 5px; /* Membuat border menjadi bulat */
+    
+}
+
+accessories{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Kevin CSS*/
+#image-sequence {
+    width: 100%;
+    height: auto;
+   /*  max-width: 1600px; Adjust as needed */
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+  img.kevin {
+    width: 100%;
+    height: auto;
+    display: none;
+  }
+
+  img.active {
+    display: block;
+  }
+  .sale-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#mainCircle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    opacity: 1;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 150px;
+    left: 150px;
+}
+
+#mainCircle span {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: grey;
+    position: relative;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+#smallCircle1 {
+    bottom: 10px;
+    right: 150px;
+}
+
+#smallCircle2 {
+    bottom: 10px;
+    right: 100px;
+}
+
+#smallCircle3 {
+    bottom: 10px;
+    right: 50px;
+}
+
+.circle.active {
+    opacity: 1;
+}
+
+.circle::before {
+    content: attr(data-text);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px; /* Adjust the font size as needed */
+}
+
+/*COLOR-INTERACTIVE*/
+#color-interactive {
+    margin-top: 80px;
+}
+
+.container-colorinteractive {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-color-color-interactive {
+    text-align: center;
+}
+
+.new-text-style {
+    font-family: DM Sans, sans-serif;
+    font-size: 20px;
+}
+
+.grid-item-color-interactive {
+    border-radius: 50%;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    border: none;
+    flex: 1 0 calc(16.67% - 10px);
+}
+
+.color-interactive-middle {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+
+.color-choice-active {
+    transform: scale(1.2); 
+    transition: transform 0.3s ease; 
+}
+
+
+color-title {
+    font-family: DM Sans, sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+color-size {
+    font-family: SM Sans, sans-serif;
+    font-size: ;
+}
+
+
+/* Media Query for smaller screens */
+@media only screen and (max-width: 600px) {
+    #mainCircle,
+    .circle {
+        width: 100px;
+        height: 100px;
+    }
+    #mainCircle span {
+        text-align: center;
+        color: white;
+        font-size: 16px;
+    }
+    #smallCircle1 {
+        top: 80px;
+        right: 120px;
+    }
+
+    #smallCircle2 {
+        top: 80px;
+        right: 90px;
+    }
+
+    #smallCircle3 {
+        top: 80px;
+        right: 60px;
+    }
+
+    .circle::before {
+        font-size: 12px; /* Adjust the font size for smaller screens */
+    }
+}
