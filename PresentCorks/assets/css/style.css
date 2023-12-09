@@ -508,24 +508,16 @@ color-size {
 /*SCALE N SIP*/
 
 /* BANNER */
-        .container-fluid{
-            padding-left: 0rem;
-            padding-right: 0rem;
-            overflow: hidden;
-            
-        }
-
-        .container{
-            height: 800px;
-        }
-
+.body{
+    padding-top:30px;
+}
         .scaleNsip-banner {
             position: relative;
             width: auto; /* Adjust container size as needed */
             height: 712px; /* Adjust container size as needed */
             overflow: hidden;
             object-fit: cover;
-            
+            margin-bottom: 0;
         }
 
         .scaleNsip-banner img,
