@@ -53,8 +53,6 @@ masukin ke branch:
 git checkout calandra
 
 git add .
-git commit -m "mesg apapun"
-git push origin calandra
 
 
 checkout ke branch main
