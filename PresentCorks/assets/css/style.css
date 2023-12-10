@@ -517,18 +517,17 @@ color-size {
   padding: 5px; /* Add some padding for better visibility */
   display: inline-block; 
 }
-/* Media Query for smaller screens */
-@media only screen and (max-width: 600px) {
-    #mainCircle,
+@media only screen and (max-width: 980px) {
+    #mainCircle{
+        width: 175px;
+        height: 175px;
+        left: 150px;
+    }
     .circle {
         width: 100px;
         height: 100px;
     }
-    #mainCircle span {
-        text-align: center;
-        color: white;
-        font-size: 16px;
-    }
+
     #smallCircle1 {
         top: 80px;
         right: 120px;
@@ -542,10 +541,6 @@ color-size {
     #smallCircle3 {
         top: 80px;
         right: 60px;
-    }
-
-    .circle::before {
-        font-size: 12px; /* Adjust the font size for smaller screens */
     }
 }
 
