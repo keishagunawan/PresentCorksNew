@@ -558,6 +558,8 @@ color-size {
     font-size: 18px;
 }
 
+/* SCALE & SIP */
+
 .scaleNsip-banner {
     position: relative;
     width: auto; /* Adjust container size as needed */
@@ -585,7 +587,6 @@ color-size {
 }
 
 
-/* SCALE & SIP */
 
 .scaleNsip-desc p {
     margin-top: 0;
