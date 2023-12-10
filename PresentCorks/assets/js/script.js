@@ -318,17 +318,17 @@ VANTA.FOG({
 
 const banner = document.querySelector('.scaleNsip-banner');
 const bannerimage = banner.querySelector('.bannerimage');
-const bannervideo = banner.querySelector('.bannervideo');
+const bannerVideo = banner.querySelector('.bannervideo');
 
 banner.addEventListener('mouseover', () => {
     bannerimage.style.opacity = '0'; // Hide the image
-    bannervideo.play(); // Start playing the video
+    bannerVideo.play(); // Start playing the video
 });
 
 banner.addEventListener('mouseout', () => {
     bannerimage.style.opacity = '1'; // Show the image on mouseout
-    bannervideo.pause(); // Pause the video
-    bannervideo.currentTime = 0; // Reset video to the beginning
+    bannerVideo.pause(); // Pause the video
+    bannerVideo.currentTime = 0; // Reset video to the beginning
 });
 
 // JavaScript function to update subcategory dropdown based on the selected category
