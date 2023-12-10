@@ -669,9 +669,7 @@ color-size {
     left: 50%;
     transform: translateX(-50%);
     text-decoration: none;
-    font-size: 48px; /* Increased font size */
-    color: black; /* Arrow color */
-    background-color: white; /* White background */
-    padding: 10px; /* Padding around the arrow */
-    border-radius: 50%; /* Circular background */
+    background-color: #BCC6CC;
+    padding: 10px;
+    border-radius: 50%;
   }
