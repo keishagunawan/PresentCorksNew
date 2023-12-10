@@ -2,7 +2,9 @@
 #animation-ourproduct {
     padding-top: 100px;
 }
-
+#navbar{
+    font-family: DM Sans, sans-serif;
+}
 .ourproduct-text {
     margin-left: 70px;
     font-size: 40px;
@@ -668,3 +670,6 @@ color-size {
     padding: 10px;
     border-radius: 50%;
   }
+#last-animation-arrow{
+    position:relative
+}
