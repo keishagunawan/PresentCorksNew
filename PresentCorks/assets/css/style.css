@@ -662,55 +662,6 @@ color-size {
 
 }
 
-  .aboutus-heading1, .aboutus-heading2{
-    font-family: 'DM Sans';
-    font-size: 42px;
-    text-align: left;
-    animation: aboutusHAnim 1s ease 0s 1 normal forwards;
-  }
-  @keyframes aboutusHAnim {
-  0% {
-    opacity: 0;
-    transform: scale(0.6);
-  }
-
-  100% {
-    opacity: 1;
-    transform: scale(1);
-  }
-}
-
-  .aboutus-desc1, .aboutus-desc2 {
-    font-family: 'DM Sans';
-    font-size: 18px;
-  }
-
-  .aboutuslogo {
-    width: 600px;
-  }
-
-  .aboutus-heading1,
-  .aboutus-desc1 {
-    text-align: justify;
-  }
-
-  .aboutus1{
-    width: 275px;
-    height: 168px;
-    object-fit: cover;
-    display:block;
-  }
-
-  .aboutus2{
-    width: 215px;
-    height: 241px;
-    
-  }
-  .aboutus3{
-    height: 195px;
-    width: 210px;
-  }
-
 /*SCROLL DOWN ARROW*/
 .scroll-down-arrow {
     position: absolute;
