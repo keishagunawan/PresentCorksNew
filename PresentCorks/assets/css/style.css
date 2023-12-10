@@ -511,9 +511,9 @@ color-size {
 }
 .discount-percent {
   font-size: 18px; /* Adjust the font size as needed */
-  color: red; /* Adjust the color as needed */
+  color: solid #BCC6CC; /* Adjust the color as needed */
   font-weight: bold; /* Adjust the font weight as needed */
-  background-color: yellow; /* Highlight color */
+  background-color: #6F7476; /* Highlight color */
   padding: 5px; /* Add some padding for better visibility */
   display: inline-block; 
 }

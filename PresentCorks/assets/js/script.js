@@ -248,6 +248,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 circle.classList.add("active");
             });
             mainCircle.style.opacity = 0;
+            mainCircle.style.cursor = 'default';
         }, 100);
     });
     VANTA.WAVES({
