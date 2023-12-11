@@ -30,6 +30,10 @@
     rel="stylesheet">
   <style>
 
+    .aboutus-banner{
+       width: 100%;
+    }
+
     .aboutus-heading1, .aboutus-heading2{
       font-family: 'DM Sans';
       font-size: 42px;
@@ -62,11 +66,11 @@
       text-align: justify;
     }
 
-    .aboutus1{
-      width: 275px;
-      height: 168px;
+    .aboutus12{
+      width: 285px;
+      height: auto;
       object-fit: cover;
-      display:block;
+      float: right;
     }
 
     .aboutus2{
@@ -78,6 +82,7 @@
       height: 195px;
       width: 210px;
     }
+
     
   </style>
 </head>
@@ -114,9 +119,11 @@
 
   <!--ABOUT US-->
   <section id="aboutus">
-    <div class="container-fluid">
-      <div class="aboutus-banner">
-        <img src="assets/image/aboutus.png" alt="banner" width="100%">
+    <div class="container-fluid p-0">
+      <div class="row no-gutters">
+        <div class="aboutus-banner">
+          <img src="assets/image/aboutus.png" alt="banner" width="100%">
+        </div>
       </div>
     </div>
 
@@ -156,18 +163,11 @@
       <!--Section 3-->
       <div class="container">
       <div class="row mt-5 justify-content-end">
-        <div class="col-1"></div>
-        <div class="col-5 pr-0">
-          <div class="row float-right mr-5" style="display: block;">
-            
-              <img class="aboutus1 ms-auto" src="assets/image/aboutus1.png" alt=""> <!-- Tambahkan ms-auto di sini -->
-            
-          </div>
-          <div class="row float-right mr-5 mt-5">
-              <img class="aboutus2" src="assets/image/aboutus2.png" alt="">
-          </div>
+        
+        <div class="col-5 pr-0 ">
+          <img class="aboutus12" src="assets/image/aboutus12.png" alt="">
         </div>
-        <div class="col-5 mt-5 pt-5">
+        <div class="col-lg-5 col-xs-12 mt-5 pt-5">
           <div class="row align-items-end">
             <div class="col-5 pl-0">
               <img class="aboutus3" src="assets/image/aboutus3.png" alt="">
