@@ -562,7 +562,7 @@ color-size {
 
 .scaleNsip-banner {
     position: relative;
-    width: auto; /* Adjust container size as needed */
+    width: 100%; /* Adjust container size as needed */
     height: 741px; /* Adjust container size as needed */
     overflow: hidden;
     objectfit:cover;
@@ -650,15 +650,11 @@ color-size {
     }
 }
 
-/*ABOUT US*/
-
-.aboutus-banner{
-    object fit:cover;
-    padding-left: -10px;
-    padding-right: 0;
+.container-fluid{
     overflow: hidden;
-
 }
+
+
 
 /*SCROLL DOWN ARROW*/
 .scroll-down-arrow {
